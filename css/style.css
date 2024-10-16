@@ -523,3 +523,43 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+
+body {
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+.tech-stack {
+    background-color: white;
+}
+
+.tech-stack h2 {
+    color: #0066cc; /* Blue color */
+    font-size: 36px;
+}
+
+.tech-item {
+    background-color: #e6f0ff; /* Light blue card */
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-item img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tech-item p {
+    font-size: 18px;
+    color: #0066cc;
+}
+
+.tech-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
