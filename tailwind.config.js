@@ -14,3 +14,15 @@ module.exports = {
     require('@tailwindcss/forms'),
   ],
 }
+
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/line-clamp'),
+  ],
+};
+
